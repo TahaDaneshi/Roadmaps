@@ -1,0 +1,12 @@
+{
+  "name": "roadmaps",
+  "version": "1.0.0",
+  "description": "Roadmaps for learning technologies",
+  "license": "ISC",
+  "author": "TahaDaneshi",
+  "type": "commonjs",
+  "main": "script.js","index.html"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
