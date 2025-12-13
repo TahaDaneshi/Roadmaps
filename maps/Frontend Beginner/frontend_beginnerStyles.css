@@ -171,6 +171,18 @@ header .more-info-box {
 .items-center {
   align-items: center;
 }
+.justify-content-between{
+  justify-content: space-between;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.relative{
+  position: relative;
+}
+.top-1 {
+  top: 1vw;
+}
 /* DARK MODE */
 
 /* RESPONSIVE */
