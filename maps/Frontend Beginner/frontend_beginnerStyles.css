@@ -53,7 +53,7 @@ section {
   padding: 2vw 0;
 }
 
-.section1_html-css-javascript {
+.section1_html-css-javascript , .section3_npm-React-Tailwind{
   display: grid;
   grid-template-rows: max-content;
   grid-template-columns: 2fr 1fr 2fr;
@@ -66,6 +66,7 @@ section {
   grid-template-columns: 2fr 1fr 1fr 2fr;
   justify-items: center;
 }
+
 /* ID */
 
 /* CLASS */
@@ -100,13 +101,6 @@ header .more-info-box {
 .detailed-version-button {
   background-color: #232323;
   border-color: #232323;
-}
-
-.section1-buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 2vw;
-  align-items: center;
 }
 
 .advice {
@@ -161,7 +155,22 @@ header .more-info-box {
   background-position: center;
   user-select: none;
 }
-
+  /* FLEXBOX */
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.gap2 {
+  gap: 2vw;
+}
+.gap4 {
+  gap: 4vw;
+}
+.items-center {
+  align-items: center;
+}
 /* DARK MODE */
 
 /* RESPONSIVE */
