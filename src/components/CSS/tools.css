@@ -1,0 +1,75 @@
+.button {
+  /* style for all BUTTON */
+  text-align: center;
+  border-style: solid;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: rgb(58, 199, 255);
+  color: black;
+}
+
+.main-button {
+  background-color: yellow;
+  border-width: 2px;
+  width: 9vw;
+  height: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.line-y-dotted {
+  /* in division */
+  width: 2vw;
+  height: 4vw;
+  margin: 0;
+  margin: 0.5vh 0;
+  padding-top: 30px;
+  background-image: radial-gradient(circle, #007bff 40%,transparent 60%);
+  background-size: 6px 6px;
+  background-repeat: repeat-y;
+  background-position: center;
+  user-select: none;
+}
+
+.user-select-none {
+  user-select: none;
+}
+  /* CSS GRID */
+.grid {
+  display: grid;
+}
+
+  /* FLEXBOX */
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.gap2 {
+  gap: 2vw;
+}
+.gap4 {
+  gap: 4vw;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.relative{
+  position: relative;
+}
+.top-1 {
+  top: 1vw;
+}
