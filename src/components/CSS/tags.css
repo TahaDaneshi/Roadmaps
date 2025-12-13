@@ -1,0 +1,11 @@
+body {
+  font-family: "IRANSans"; /* main font */
+  font-size: 1.5vw;
+}
+
+a {
+  color: black;
+}
+a:active {
+  color: black;
+}

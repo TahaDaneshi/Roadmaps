@@ -40,6 +40,37 @@
 .user-select-none {
   user-select: none;
 }
+
+  /* WIDTH */
+.width-full {
+  width: 100%;
+}
+
+  /* POSITON */
+.fixed {
+  position: fixed;
+}
+
+.relative{
+  position: relative;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.top-1 {
+  top: 1vw;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
   /* CSS GRID */
 .grid {
   display: grid;
@@ -61,15 +92,12 @@
 .align-items-center {
   align-items: center;
 }
+.justify-items-center {
+  justify-items: center;
+}
 .justify-content-between{
   justify-content: space-between;
 }
 .justify-content-center{
   justify-content: center;
-}
-.relative{
-  position: relative;
-}
-.top-1 {
-  top: 1vw;
 }

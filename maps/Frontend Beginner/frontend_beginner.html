@@ -7,13 +7,25 @@
   <title>Frontend Beginner</title>
   <link rel="stylesheet" href="frontend_beginnerStyles.css">
   <link rel="stylesheet" href="../../src/components/CSS/tools.css">
+  <link rel="stylesheet" href="../../src/components/CSS/tags.css">
   <script defer src="./frontend_beginnerScripts.js"></script>
   <script defer src="../../src/components/JS/navigation.js"></script>
+
+  <style>
+    nav {
+      background-color: antiquewhite;
+    }
+  </style>
 </head>
 
 <body>
+  <nav class="fixed top-0 width-full">
+    <span id="moon">&#127769;</span>
+    <span id="sun">🔆</span>
+    <span></span>
+  </nav>
   <header>
-    <div class="more-info-box">
+    <div class="more-info-box relative top-1">
       <p>this is the beginner freindly version of the Frontend roadmap. Make sure to</p>
       <div class="button detailed-version-button more-info-btn">Visit the Detailed Version</div>
     </div>
@@ -21,7 +33,7 @@
       <div class="line-y-dotted"></div>
       <h1>Front-end</h1>
     </div>
-    <div class="more-info-box">
+    <div class="more-info-box relative top-1">
       <p>made in Iran by Taha Daneshi</p>
       <div id="about-me-button" class="button about-me-button more-info-btn">About Me <span
           class="arrow-right-larg">&#8594;</span>
@@ -60,7 +72,7 @@
       </div>
     </section>
     <!-- Git, GitHub -->
-    <section class="section2_Git-GitHub">
+    <section class="section2_Git-GitHub grid justify-items-center">
       <p>Learn about Version Control Systems
         & start using Git for your future projects.</p>
       <!-- Git button -->
@@ -108,7 +120,7 @@
       <div class="user-select-none"></div>
     </section>
   </main>
-  <footer>
+  <footer class="flex flex-column align-items-center">
     <!-- advice -->
     <div class="advice more-info-box">
       <p>Depending on the depth of your knowledge and your projects, at this point, you should have enough knowledge to
