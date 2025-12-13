@@ -17,6 +17,7 @@
 /* ELEMENTS */
 body {
   font-family: "IRANSans"; /* main font */
+  font-size: 1.5vw;
 }
 
 header {
@@ -25,11 +26,6 @@ header {
   grid-template-columns: repeat(3, 1fr);
   margin: 3%;
   background-color: aqua;
-}
-
-header div {
-  font-size: xx-small;
-  font-size: 1.5vw;
 }
 
 main {
@@ -41,7 +37,7 @@ h1 {
   font-size: 2vw;
 }
 
-/* SECTIONS */
+/* SECTIONS styles*/
 .section1_html-css-javascript {
   display: grid;
   grid-template-rows: max-content;
