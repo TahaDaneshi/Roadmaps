@@ -41,6 +41,13 @@ h1 {
   font-size: 2vw;
 }
 
+/* SECTIONS */
+.section1_html-css-javascript {
+  display: grid;
+  grid-template-rows: max-content;
+  grid-template-columns: 2fr 1fr 2fr;
+}
+
 /* ID */
 
 /* CLASS */
