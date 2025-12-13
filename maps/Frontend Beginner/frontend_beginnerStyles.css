@@ -1,20 +1,4 @@
-/* FONTS */
-@font-face {
-  font-family: 'IRANSans';
-  src: url('../../src/Font/IRANSansXFaNum-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-display: swap;
-};
-
-/* ALL */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* ELEMENTS */
+  /* ELEMENTS */
 
 header {
   display: grid;
@@ -26,16 +10,6 @@ header {
 main, footer{
   margin: 3%;
 }
-
-h1 {
-  font-size: 2vw;
-}
-
-h2 {
-  font-size: 1.7vw;
-  font-weight: 500;
-}
-
 /* SECTIONS styles*/
 section {
   padding: 2vw 0;
@@ -103,3 +77,8 @@ section {
 /* DARK MODE */
 
 /* RESPONSIVE */
+@media (max-width: 500px) {
+  header {
+    margin-top: 6%;
+  }
+}

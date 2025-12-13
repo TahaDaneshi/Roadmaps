@@ -122,3 +122,13 @@
 }
 
   /* PADDING */
+
+
+  /* RESPONSIVE */
+
+@media (max-width: 500px) {
+  .main-button {
+    width: 10vw;
+    height: 5vw;
+  }
+}
