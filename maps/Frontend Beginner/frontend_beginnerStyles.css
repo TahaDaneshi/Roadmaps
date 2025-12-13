@@ -53,8 +53,7 @@ section {
   padding: 2vw 0;
 }
 
-.section1_html-css-javascript , .section3_npm-React-Tailwind{
-  display: grid;
+.section1_html-css-javascript , .section3_npm-React-Tailwind, .section4_vitest{
   grid-template-rows: max-content;
   grid-template-columns: 2fr 1fr 2fr;
 }
@@ -106,7 +105,7 @@ header .more-info-box {
 .advice {
   width: 49%;
   text-align: center;
-  margin: 6vw 0;
+  margin: 3vw 0 6vw 0;
 }
 .continue-learning {
   text-align: center;
@@ -155,6 +154,14 @@ header .more-info-box {
   background-position: center;
   user-select: none;
 }
+
+.user-select-none {
+  user-select: none;
+}
+  /* CSS GRID */
+.grid {
+  display: grid;
+}
   /* FLEXBOX */
 .flex {
   display: flex;
@@ -168,7 +175,7 @@ header .more-info-box {
 .gap4 {
   gap: 4vw;
 }
-.items-center {
+.align-items-center {
   align-items: center;
 }
 .justify-content-between{
