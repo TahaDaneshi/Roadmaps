@@ -79,6 +79,7 @@ h1 {
   border-radius: 4px;
   cursor: pointer;
   user-select: none;
+  transition: background-color 0.3s ease;
 }
 .button:hover {
   background-color: rgb(58, 199, 255);
