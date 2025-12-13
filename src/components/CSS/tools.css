@@ -37,10 +37,21 @@
   user-select: none;
 }
 
+  /* USER */
 .user-select-none {
   user-select: none;
 }
+.pointer {
+  cursor: pointer;
+}
 
+  /* BOARDER */
+.border-none {
+  border: none;
+}
+.border-size-1 {
+  border-width: 1px;
+}
   /* WIDTH */
 .width-full {
   width: 100%;
@@ -83,6 +94,9 @@
 .flex-column {
   flex-direction: column;
 }
+.gap1 {
+  gap: 1vw;
+}
 .gap2 {
   gap: 2vw;
 }
@@ -101,3 +115,10 @@
 .justify-content-center{
   justify-content: center;
 }
+
+  /* MARGIN */
+.margi-right-4 {
+  margin-right: 4vw;
+}
+
+  /* PADDING */

@@ -2,7 +2,9 @@ body {
   font-family: "IRANSans"; /* main font */
   font-size: 1.5vw;
 }
-
+nav {
+  z-index: 2;
+}
 a {
   color: black;
 }
