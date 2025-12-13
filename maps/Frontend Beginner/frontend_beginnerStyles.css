@@ -37,6 +37,11 @@ h1 {
   font-size: 2vw;
 }
 
+h2 {
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+
 /* SECTIONS styles*/
 .section1_html-css-javascript {
   display: grid;
@@ -76,6 +81,10 @@ h1 {
 .detailed-version-button {
   background-color: #232323;
   border-color: #232323;
+}
+
+.section1-buttons div{
+  width: 50%;
 }
 /* TOOLS */
 .button {
