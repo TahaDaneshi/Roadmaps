@@ -38,7 +38,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5vw;
+  font-size: 1.7vw;
   font-weight: 500;
 }
 
@@ -83,8 +83,11 @@ h2 {
   border-color: #232323;
 }
 
-.section1-buttons div{
-  width: 50%;
+.section1-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  align-items: center;
 }
 /* TOOLS */
 .button {
@@ -99,6 +102,16 @@ h2 {
 .button:hover {
   background-color: rgb(58, 199, 255);
   color: black;
+}
+
+.main-button {
+  background-color: yellow;
+  border-width: 1px;
+  width: 9vw;
+  height: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .arrow-right-larg {
