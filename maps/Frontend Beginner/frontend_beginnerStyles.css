@@ -24,6 +24,7 @@ header {
   grid-template-rows: max-content;
   grid-template-columns: repeat(3, 1fr);
   margin: 3%;
+  background-color: aqua;
 }
 
 header div {
@@ -33,6 +34,7 @@ header div {
 
 main {
   background-color: green;
+  margin: 3%;
 }
 
 h1 {
@@ -57,9 +59,10 @@ h1 {
   border: 1px solid black;
   border-radius: 4px;
   padding: 2%;
+  font-size: 1.7vw;
+  
 }
 .more-info-btn {
-  font-size: 1.8vw;
   border-width: 1px;
   color: white;
 }
