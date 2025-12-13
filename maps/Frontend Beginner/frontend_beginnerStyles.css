@@ -43,6 +43,10 @@ h2 {
 }
 
 /* SECTIONS styles*/
+section {
+  padding: 2vw 0;
+}
+
 .section1_html-css-javascript {
   display: grid;
   grid-template-rows: max-content;
