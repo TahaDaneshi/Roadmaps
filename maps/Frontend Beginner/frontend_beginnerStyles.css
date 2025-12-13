@@ -33,6 +33,12 @@ main, footer{
   margin: 3%;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 h1 {
   font-size: 2vw;
 }
@@ -65,11 +71,13 @@ section {
 header .more-info-box {
   position: relative;
   top: 1vh;
-}.more-info-box {
+}
+
+.more-info-box {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 4px;
   padding: 2%;
   font-size: 1.7vw;
@@ -97,6 +105,7 @@ header .more-info-box {
 .advice {
   width: 49%;
   text-align: center;
+  margin: 6vw 0;
 }
 .continue-learning {
   text-align: center;
@@ -119,7 +128,7 @@ header .more-info-box {
 
 .main-button {
   background-color: yellow;
-  border-width: 1px;
+  border-width: 2px;
   width: 9vw;
   height: 3vw;
   display: flex;
