@@ -28,7 +28,7 @@ header {
   background-color: aqua;
 }
 
-main {
+main, footer{
   background-color: green;
   margin: 3%;
 }
@@ -62,9 +62,10 @@ section {
   align-items: center;
   justify-content: end;
 }
-.more-info-box {
+header .more-info-box {
   position: relative;
   top: 1vh;
+}.more-info-box {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -72,7 +73,6 @@ section {
   border-radius: 4px;
   padding: 2%;
   font-size: 1.7vw;
-  
 }
 .more-info-btn {
   border-width: 1px;
@@ -92,6 +92,15 @@ section {
   flex-direction: column;
   gap: 2vw;
   align-items: center;
+}
+
+.advice {
+  width: 49%;
+  text-align: center;
+}
+.continue-learning {
+  text-align: center;
+  width: 40%;
 }
 /* TOOLS */
 .button {
