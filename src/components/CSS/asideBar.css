@@ -3,7 +3,7 @@
 #mainAsideBar {
   grid-template-rows: max-content;
   grid-template-columns: repeat(2, 1fr);
-  z-index: 2;
+  z-index: 3;
   background-color: gray;
 }
 
