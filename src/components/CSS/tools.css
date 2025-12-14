@@ -56,6 +56,17 @@
 .width-full {
   width: 100%;
 }
+.width-content {
+  width: max-content;
+}
+.width-half {
+  width: 50%;
+}
+
+  /* HEIGHT */
+.height-full-vw {
+  height: 100vw;
+}
 
   /* POSITON */
 .fixed {
@@ -64,6 +75,14 @@
 
 .relative{
   position: relative;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.absoloute {
+  position: absolute;
 }
 
 .top-0 {
@@ -80,6 +99,10 @@
 
 .left-0 {
   left: 0;
+}
+  /* DISPLAY */
+.none {
+  display: none;
 }
 
   /* CSS GRID */
@@ -121,6 +144,29 @@
   margin-right: 4vw;
 }
 
+  /* BACKGROUND COLOR */
+.bg-sky {
+  background-color: rgb(40, 194, 255);
+}
+.bg-red {
+  background-color: red;
+}
+.bg-gray {
+  background-color: rgb(177, 176, 176);
+}
+.bg-white {
+  background-color: white;
+}
+  /* FONT WEIGHT */
+.font-bold {
+  font-weight: bold;
+}
+
+  /*  */
+.overflow-auto {
+  /* overflow-y: scroll; */
+  overflow: auto;
+}
   /* PADDING */
 
 

@@ -1,0 +1,32 @@
+  /* Main */
+
+#mainAsideBar {
+  grid-template-rows: max-content;
+  grid-template-columns: repeat(2, 1fr);
+  z-index: 2;
+  background-color: gray;
+}
+
+#closeAsideButton {
+  margin: 0.25vw 1.5vw;
+  width: 4vw;
+}
+
+#mainAsideBarContent {
+  padding: 1vw;
+}
+
+#freeResourcesSection {
+  border-top: 1px solid green;
+  padding: 0 1vw;
+}
+
+#freeResourcesLable {
+  border: 1px solid green;
+  height: 2vw;
+  padding: 0.5vw;
+  border-radius: 50px;
+  font-size: 1vw;
+  top: -1vw;
+  left: 0.5vw;
+}
