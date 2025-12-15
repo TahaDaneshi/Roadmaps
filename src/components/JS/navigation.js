@@ -1,5 +1,5 @@
-// ELEMENTS 
-const body = document.getElementsByTagName('body')[0];
+const body = document.getElementsByTagName('body')[0];// Get body element
+// Push navigation bar to the webpage
 body.insertAdjacentHTML('afterbegin', `
   <!-- NAVBAR / navigation bar -->
   <nav id="mainNavBar" class="fixed top-0 width-full flex justify-content-between bg-sky">
@@ -15,4 +15,4 @@ body.insertAdjacentHTML('afterbegin', `
       </div>
     </div>
   </nav>
-  `)
+  `);
