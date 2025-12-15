@@ -1,4 +1,4 @@
-const HTMLRoadmapEN = {
+export const HTMLRoadmapEN = {
   title: "HTML",
   description: "HTML (Hypertext Markup Language) is the standard for creating web pages, structuring content with elements and attributes. Browsers interpret HTML tags to render pages. HTML5, the current standard adds semantic elements. multimedia support, and form controls. it works with CSS for styling and JavaScript for interactivity, forming web developments's foundation.",
   freeResources: {
