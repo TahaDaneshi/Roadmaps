@@ -47,3 +47,9 @@ document.getElementsByTagName('body')[0].insertAdjacentHTML('afterbegin', `
     </div>
   </aside>
 `);
+// ELEMENTS
+const mainAsideBar = document.getElementById('mainAsideBar');
+const closeAsideButton = document.getElementById('closeAsideButton');
+const mainAsideTitle = document.getElementById("mainAsideTitle");
+const mainAsideDescription = document.getElementById("mainAsideDescription");
+const freeResourcesList = document.getElementById("freeResourcesList");
