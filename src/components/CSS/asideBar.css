@@ -16,9 +16,17 @@
   padding: 1vw;
 }
 
+#mainAsideTitle {
+  font-size: 3.5vw;
+}
+
 #freeResourcesSection {
   border-top: 1px solid green;
   padding: 0 1vw;
+}
+
+#freeResourcesList{
+  gap: 0.5vw;
 }
 
 #freeResourcesLable {
@@ -29,4 +37,99 @@
   font-size: 1vw;
   top: -1vw;
   left: 0.5vw;
+}
+
+.freeResourcesItem {
+  display: flex;
+  gap: 1vw;
+}
+
+.freeResourcesItem div{
+  user-select: none;
+  width: max-content;
+  height: 2vw;
+  font-size: 1vw;
+  padding: 0.4vw;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.freeResourcesItem a {
+  position: relative;
+  top: -0.2vw;
+  font-size: 1.5vw;
+}
+.freeResourcesItem .roadmap-lable{
+  background-color: black;
+  color: white;
+}
+.freeResourcesItem .course-lable{
+  background-color: rgb(1, 228, 1);
+}
+.freeResourcesItem .video-lable{
+  background-color: rgb(214, 96, 238);
+}
+.freeResourcesItem .feed-lable{
+  background-color: rgb(231, 2, 201);
+}
+
+@media (max-width: 500px) {
+  #mainAsideBar {
+    display: flex;
+    height: 100vh;
+  }
+  #mainAsideBarContent {
+    height: 100vh;
+  }
+  #closeAsideButton {
+  font-size: 4vw;
+  width: 6vw;
+  }
+  #mainAsideDescription {
+  font-size: 3vw;
+  }
+  #freeResourcesLable {
+  height: 4.5vw;
+  font-size: 2.5vw;
+  top: -2.5vw;
+}
+  .freeResourcesItem div{
+  height: 4.3vw;
+  font-size: 2.3vw;
+  padding: 0.4vw;
+}
+  .freeResourcesItem a {
+  top: -0.3vw;
+  font-size: 3.5vw;
+}
+}
+
+@media (max-width: 350px) {
+  #mainAsideBarContent {
+  padding: 1.5vw;
+  }
+  #mainAsideTitle {
+    font-size: 5.5vw;
+  }
+  #mainAsideDescription {
+  font-size: 4.5vw;
+  }
+  #freeResourcesList{
+  gap: 1vw;
+  }
+  #freeResourcesLable {
+  height: 5.5vw;
+  font-size: 3.2vw;
+  top: -2.7vw;
+  left: 1.7vw;
+  }
+  .freeResourcesItem div{
+  height: 5.6vw;
+  font-size: 3.5vw;
+  padding: 0.6vw;
+  }
+  .freeResourcesItem a {
+  font-size: 4.5vw;
+  }
 }
