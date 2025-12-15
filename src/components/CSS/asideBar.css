@@ -1,5 +1,4 @@
   /* Main */
-
 #mainAsideBar {
   grid-template-rows: max-content;
   grid-template-columns: repeat(2, 1fr);
@@ -14,12 +13,14 @@
 
 #mainAsideBarContent {
   padding: 1vw;
+  height: 100vh;
 }
 
 #mainAsideTitle {
   font-size: 3.5vw;
 }
 
+  /* Free Resources */
 #freeResourcesSection {
   border-top: 1px solid green;
   padding: 0 1vw;
