@@ -1,6 +1,6 @@
-const body = document.getElementsByTagName('body')[0];// Get body element
 // Push navigation bar to the webpage
-body.insertAdjacentHTML('afterbegin', `
+export function createNavigationBar() {
+  document.getElementsByTagName('body')[0].insertAdjacentHTML('afterbegin', `
   <!-- NAVBAR / navigation bar -->
   <nav id="mainNavBar" class="fixed top-0 width-full flex justify-content-between bg-sky">
     <div id="projectName" style="margin-left: 4vw;" class="user-select-none">Roadmap 🧾</div>
@@ -16,3 +16,4 @@ body.insertAdjacentHTML('afterbegin', `
     </div>
   </nav>
   `);
+}
