@@ -1,11 +1,11 @@
 export function createMainAsideBar() {
   document.getElementsByTagName('body')[0].insertAdjacentHTML('afterbegin', `
   <!-- ASIDEBAR -->
-  <aside id="mainAsideBar" class="grid fixed top-0 width-full height-full-vw">
-    <div></div>
+  <aside id="mainAsideBar" class="grid fixed top-0 width-full height-full-vw" style="display: none">
+    <div onclick="document.getElementById('mainAsideBar').style.display = 'none';"></div>
     <!-- aside content -->
-    <div id="mainAsideBarContent" class="bg-sky flex flex-column overflow-auto  height-full-vw">
-      <nav class="flex" dir="rtl" style="background-color: red;">
+    <div id="mainAsideBarContent" class="flex flex-column overflow-auto  height-full-vw">
+      <nav class="flex" dir="rtl">
         <!-- Close aside bar button -->
         <div id="closeAsideButton" onclick="document.getElementById('mainAsideBar').style.display = 'none';" class="button relative border-none user-select-none font-bold bg-gray"><span
             class="absoloute">/</span>

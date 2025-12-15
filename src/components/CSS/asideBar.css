@@ -3,7 +3,6 @@
   grid-template-rows: max-content;
   grid-template-columns: repeat(2, 1fr);
   z-index: 3;
-  background-color: gray;
 }
 
 #closeAsideButton {
@@ -12,6 +11,11 @@
 }
 
 #mainAsideBarContent {
+  background: rgb(0, 247, 255, 0.3);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   padding: 1vw;
   height: 100vh;
 }
