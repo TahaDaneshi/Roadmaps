@@ -11,13 +11,11 @@
 body {
   font-family: "IRANSans"; /* main font */
   font-size: 1.5vw;
+  line-height: 1.3;
 }
 nav {
   z-index: 2;
   border-radius: 0 0 4px 4px;
-}
-h1 {
-  font-size: 2vw;
 }
 
 h2 {
@@ -37,9 +35,6 @@ a:visited {
     font-size: 1.85vw;
   }
   nav {
-    font-size: 3vw;
-  }
-  h1 {
     font-size: 3vw;
   }
   h2 {

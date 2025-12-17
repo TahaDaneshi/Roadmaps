@@ -64,6 +64,11 @@
 .border-size-1 {
   border-width: 1px;
 }
+@media (max-width: 350px) {
+  .mobile-border-1 {
+    border-width: 1px;
+  }
+}
   /* WIDTH */
 .width-full {
   width: 100%;
@@ -129,6 +134,7 @@
 .flex-column {
   flex-direction: column;
 }
+  /* GAP */
 .gap1 {
   gap: 1vw;
 }
@@ -142,8 +148,8 @@
   column-gap: 2vw;
 }
 @media (max-width: 350px) {
-  .mobile-gap4 {
-    gap: 4vw;
+  .mobile-gap6 {
+    gap: 6vw;
   }
 }
 .align-items-center {
@@ -180,6 +186,32 @@
   /* FONT WEIGHT */
 .font-bold {
   font-weight: bold;
+}
+
+@media (max-width: 350px) {
+  .mobile-font-bold {
+    font-weight: bold;
+  }
+}
+
+  /* FONT SIZE */
+.font-size-1 {
+  font-size: 1vw;
+}
+.font-size-2 {
+  font-size: 2vw;
+}
+
+@media (max-width: 350px) {
+  .mobile-font-2 {
+    font-size: 2.5vw;
+  }
+  .mobile-font-3 {
+    font-size: 3vw;
+  }
+  .mobile-font-4 {
+    font-size: 4vw;
+  }
 }
 
   /*  */

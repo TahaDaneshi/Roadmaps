@@ -82,3 +82,14 @@ section {
     margin-top: 6%;
   }
 }
+@media (max-width: 350px) {
+  header {
+    grid-template-columns: 37% 26% 37%;
+  }
+  .advice {
+    width: 70%;
+  }
+  .continue-learning {
+    width: 50%;
+  }
+}
