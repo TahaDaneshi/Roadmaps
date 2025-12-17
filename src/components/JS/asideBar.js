@@ -30,6 +30,7 @@ export function createMainAsideBar() {
 // Inserting asideBar content
 export function openAsideBar(contentObj) {
   document.getElementById('mainAsideBar').style.display = ''
+  document.getElementById("freeResourcesList").innerHTML = ''
   document.getElementById("mainAsideTitle").innerText = contentObj.title
   document.getElementById("mainAsideDescription").innerText = contentObj.description
   function listItems(type, link) {
